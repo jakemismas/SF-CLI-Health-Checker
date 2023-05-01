@@ -13,10 +13,11 @@ This Python script helps you analyze the fields of custom objects in your Salesf
 ## 🛠️ Requirements
 - Python 3.6 or later 🐍
 - simple-salesforce library
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ## 💻 Installation (Using the command line)
 1. Clone the repository:
-git clone https://github.com/yourusername/salesforce-custom-objects-field-analyzer.git
+git clone https://github.com/jakemismas/SF-CLI-Health-Checker.git
 2. Navigate to the project directory:
 cd sf-cli-health-checker
 3. Install the required libraries:
