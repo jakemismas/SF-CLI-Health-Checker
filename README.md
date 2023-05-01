@@ -1,9 +1,8 @@
-# Salesforce CLI Health Tool
+# 🩺 Salesforce CLI Health Checker
 
 This Python script helps you analyze the fields of custom objects in your Salesforce environment. Given a custom object name, it retrieves up to 500 instances of the object, calculates the usage percentage of each field, and exports the results to a CSV file.
 
 ## 🌟 Features
-
 - Connects to your Salesforce environment using the simple-salesforce library
 - Retrieves a list of all custom objects in the environment
 - Allows users to enter a custom object name to be analyzed
@@ -12,16 +11,14 @@ This Python script helps you analyze the fields of custom objects in your Salesf
 - CSV file includes project name, field name, field label, instance count, total queried objects, and usage percentage
 
 ## 🛠️ Requirements
-
 - Python 3.6 or later 🐍
 - simple-salesforce library
 
 ## 💻 Installation (Using the command line)
-
 1. Clone the repository:
 git clone https://github.com/yourusername/salesforce-custom-objects-field-analyzer.git
 2. Navigate to the project directory:
-cd salesforce-custom-objects-field-analyzer
+cd sf-cli-health-checker
 3. Install the required libraries:
 pip install -r requirements.txt
 
